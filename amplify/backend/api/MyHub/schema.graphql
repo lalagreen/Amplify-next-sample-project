@@ -1,0 +1,11 @@
+type Fund @model {
+  id: ID!
+  name: String!
+  createdAt: AWSDateTime!
+  expectedReturn: Int!
+  risk: Int!
+  historicalReturn: Int!
+  aum: Int!
+  status: Int!
+  dividend: Int!
+}
